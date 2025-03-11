@@ -6,7 +6,12 @@ const Products = () => {
   if (jwttoken === undefined) {
     return <Redirect to="/login" />
   }
-  return <h1>Products Component</h1>
+  return (
+    <img
+      src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-products-img.png"
+      alt="products"
+    />
+  )
 }
 
 export default Products

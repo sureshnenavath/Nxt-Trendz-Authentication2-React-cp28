@@ -6,6 +6,11 @@ const Cart = () => {
   if (jwttoken === undefined) {
     return <Redirect to="/login" />
   }
-  return <h1>Cart Component</h1>
+  return (
+    <img
+      src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-cart-img.png"
+      alt="cart"
+    />
+  )
 }
 export default Cart
